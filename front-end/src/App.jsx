@@ -12,7 +12,7 @@ import { Navigate } from "react-router-dom";
 import LoadingSpinner from "./components/LoadingSpinner.jsx";
 import DashBoard from "./pages/DashBoard.jsx";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage.jsx";
-import ResetPasswordPage from "./pages/resetPasswordPage.jsx";
+import ResetPasswordPage from "./pages/ResetPasswordPage.jsx";
 
 const ProtectAuthRoute = ({ children }) => {
   const { user, isAuthenticated } = useAuthStore();

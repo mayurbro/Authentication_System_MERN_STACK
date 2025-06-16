@@ -3,7 +3,7 @@ import FloatingShape from "./components/FloatingShape";
 import { Route, Routes } from "react-router-dom";
 import SignupPage from "./pages/SignupPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
-import EmailVerificationPage from "./pages/emailVerificationPage.jsx";
+import EmailVerificationPage from "./pages/EmailVerificationPage.jsx";
 import { Toaster } from "react-hot-toast";
 import { useAuthStore } from "../store/authStore.js";
 import { useEffect } from "react";
